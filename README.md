@@ -9,11 +9,11 @@ Ubuntu
 compiler: g++
 
 
-#Test and run
-mkdir build
+# Test and run
+```
+mkdir build && cd build
 cmake ..
 make
-
 order_book
 order_book < input.txt
 order_book_test
